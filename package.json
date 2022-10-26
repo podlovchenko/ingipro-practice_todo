@@ -1,0 +1,39 @@
+{
+  "name": "todomvc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.1",
+    "install": "^0.10.1",
+    "npm": "^5.4.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-history": "^0.18.2",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-link": "^2.0.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-router-redux-params": "^2.0.0",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "todomvc-app-css": "^2.1.0",
+    "todomvc-common": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "eslint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "eslint-fix": "./node_modules/.bin/eslint --fix ./src/**/*.js"
+  }
+}
